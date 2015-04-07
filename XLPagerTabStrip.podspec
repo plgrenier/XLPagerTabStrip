@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
                   DESC
   s.homepage = 'https://github.com/xmartlabs/XLPagerTabStrip'
   s.authors  = { 'Martin Barreto' => 'martin@xmartlabs.com', 'Washington Miranda' => 'mirandaacevedo@gmail.com' }
-  s.source   = { :git => 'https://github.com/xmartlabs/XLPagerTabStrip.git', :tag => 'v1.0.0' }
-  s.source_files = 'XLPagerTabStrip/XL/**/*.{h,m}'
+  s.source   = { :git => 'https://github.com/plgrenier/XLPagerTabStrip.git', :tag => 'v1.0.0' }
+  s.source_files = 'XLPagerTabStrip/XL/**/*.{h,m,xib}’
   s.requires_arc = true
   s.ios.deployment_target = '7.0'
   s.ios.frameworks = 'UIKit', 'Foundation'

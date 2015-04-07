@@ -29,6 +29,8 @@
 		28B63AF11A45B26600225C66 /* XLPagerTabStripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B63AEC1A45B26600225C66 /* XLPagerTabStripViewController.m */; };
 		28B63AF21A45B26600225C66 /* XLSegmentedPagerTabStripViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B63AEE1A45B26600225C66 /* XLSegmentedPagerTabStripViewController.m */; };
 		28B63AF51A465E5E00225C66 /* ReloadExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28B63AF41A465E5E00225C66 /* ReloadExampleViewController.m */; };
+		97F2EF2E1AD45E0A007CE552 /* PLButtonBarViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 97F2EF2C1AD45E0A007CE552 /* PLButtonBarViewCell.m */; };
+		97F2EF2F1AD45E0A007CE552 /* PLButtonBarViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97F2EF2D1AD45E0A007CE552 /* PLButtonBarViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +86,9 @@
 		28B63AEE1A45B26600225C66 /* XLSegmentedPagerTabStripViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLSegmentedPagerTabStripViewController.m; path = Controllers/XLSegmentedPagerTabStripViewController.m; sourceTree = "<group>"; };
 		28B63AF31A465E5E00225C66 /* ReloadExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReloadExampleViewController.h; sourceTree = "<group>"; };
 		28B63AF41A465E5E00225C66 /* ReloadExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReloadExampleViewController.m; sourceTree = "<group>"; };
+		97F2EF2B1AD45E0A007CE552 /* PLButtonBarViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLButtonBarViewCell.h; sourceTree = "<group>"; };
+		97F2EF2C1AD45E0A007CE552 /* PLButtonBarViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLButtonBarViewCell.m; sourceTree = "<group>"; };
+		97F2EF2D1AD45E0A007CE552 /* PLButtonBarViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PLButtonBarViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,6 +234,9 @@
 				28B63AD11A45A4CD00225C66 /* XLButtonBarView.m */,
 				28B63AD21A45A4CD00225C66 /* XLButtonBarViewCell.h */,
 				28B63AD31A45A4CD00225C66 /* XLButtonBarViewCell.m */,
+				97F2EF2B1AD45E0A007CE552 /* PLButtonBarViewCell.h */,
+				97F2EF2C1AD45E0A007CE552 /* PLButtonBarViewCell.m */,
+				97F2EF2D1AD45E0A007CE552 /* PLButtonBarViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -330,6 +338,7 @@
 			files = (
 				28B63AE51A45A8EE00225C66 /* LaunchScreen.xib in Resources */,
 				28B63AC91A45A4C500225C66 /* PagerSlidingTabStrip.gif in Resources */,
+				97F2EF2F1AD45E0A007CE552 /* PLButtonBarViewCell.xib in Resources */,
 				28B63A971A459F5900225C66 /* Images.xcassets in Resources */,
 				28B63ACB1A45A4C500225C66 /* Storyboard.storyboard in Resources */,
 			);
@@ -357,6 +366,7 @@
 				28B63ADD1A45A4CD00225C66 /* XLButtonBarView.m in Sources */,
 				28B63AC71A45A4C500225C66 /* PostCell.m in Sources */,
 				28B63ACA1A45A4C500225C66 /* SegmentedExampleViewController.m in Sources */,
+				97F2EF2E1AD45E0A007CE552 /* PLButtonBarViewCell.m in Sources */,
 				28B63ADE1A45A4CD00225C66 /* XLButtonBarViewCell.m in Sources */,
 				28B63A8F1A459F5900225C66 /* AppDelegate.m in Sources */,
 				28B63AF21A45B26600225C66 /* XLSegmentedPagerTabStripViewController.m in Sources */,
